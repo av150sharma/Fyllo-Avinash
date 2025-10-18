@@ -7,7 +7,7 @@
 
 .featuredItem {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   justify-content: space-between;
 
 }
@@ -23,13 +23,13 @@
   
 }
 
-/* .featuredItem {
+.featuredItem {
   height: 100vh;
   flex: 1;
-  margin: 0px 20px;
+  /* margin: 0px 20px; */
   padding: 30px;
   border-radius: 10px;
   cursor: pointer;
   box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
-} */
+}
 

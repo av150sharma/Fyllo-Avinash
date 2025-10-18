@@ -6,12 +6,18 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Home from "./Pages/Home"
 
 import "./App.css"
+import FertilizerChart from "./Components/FertilizerChart/FertilizerChart"
+import TopRequiredFertilizers from "./Components/TopRequiredFertilizers/TopRequiredFertilizers"
+import LeastAvailableFertilizers from "./Components/LeastAvailableFertilizers/LeastAvailableFertilizers"
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Topbar />
+        <FertilizerChart/>
+        <TopRequiredFertilizers/>
+        <LeastAvailableFertilizers/>
         <div className="container">
           <Sidebar />
           <Switch>

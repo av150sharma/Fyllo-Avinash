@@ -24,7 +24,7 @@ const data = [
     requirement_in_mt_: "0",
     availability_in_mt_: "0",
   },
-  {
+  { 
     _year: "2015-2016",
     month: "April",
     product: "NPK",

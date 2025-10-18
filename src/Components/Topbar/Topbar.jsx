@@ -7,7 +7,7 @@ export default function Topbar() {
     <div className="topbar">
       <div className="topbarWrapper">
         <div className="topLeft">
-          <span className="Logo">Fyllo</span>
+          <span className="Logo">Fyllo-Avinash</span>
         </div>
         <div className="topRight">
           <div className="topbarIconContainer">
